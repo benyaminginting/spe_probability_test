@@ -1,0 +1,36 @@
+algoritma
+
+
+
+
+
+
+input :
+customer_id, transaction_id, transaction_amount, transaction_datetime
+
+
+response
++ discount_bool,
+kalau true : + discount_rate(%), discount_amount(rp), payment_amount, discount_probability(%)
+
+
+probability :
+tier 1 => minimum 0,- max 100rb, disc prob. 50%, disc rate 25%
+tier 2 => minimum 101rb,- max 500rb, disc prob. 30%, disc rate 50%
+
+
+bagaimana membuat prob fair
+
+1. bisa membuat api, sesuai spek diatas.
+2. bikin sebuah portal yang memiliki 2 menu .
+   1. crud tearing
+   2. loging api
+3. pasang security api
+
+
+
+deadline : 31 aguustus
+
+082226242888
+
+Arvid
